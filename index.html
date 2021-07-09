@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Знайомство з css</title>
+    <!-- <style>
+        selector{
+            property: value;
+            property: value;
+            property: value;
+        }
+    </style> -->
+    <style>
+        p {
+            color: red;
+            background-color: white;
+            text-align: center;
+            font-size: 50px;
+            display: block;
+        }
+        
+        #shadow {
+            color: blue;
+            background-color: rgb(12, 240, 152);
+            text-align: center;
+            font-size: 50px;
+            display: block;
+        }
+    </style>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <!-- ctrl + / -->
+    <!-- CSS -->
+    <!-- Види стилів
+        1.Вбудований
+        2.Глобальний
+        3.Зовнішній
+     -->
+    <!-- Види селекторів
+        1.Tag name          0,0,1
+        2.Class name        0,1,0
+        3.ID name           1,0,0
+      -->
+    <!--header-->
+    <header>
+        <h1>Завдання</h1>
+    </header>
+    <!--section_task_1-->
+
+    <section style="background-color: rgb(219, 223, 210);">
+        <h2>Завдання 1</h2>
+        <!-- Вбудовані стилі -->
+        <p style="color: white; background-color: crimson; text-align: left;font-size: 20px; padding: 0px 0px 0px 10px; margin: 30px auto; display: block;">
+            Цей текст повинен бути відредагований за допомогою вбудованих стилів</p>
+
+        <!-- Глобальні стилі -->
+        <p>
+            <b>Цей текст повинен бути відредагований за <br>допомогою глобальних стилів</b>
+        </p>
+        <p>
+            <b id="shadow">Цей текст повинен бути відредагований за <br>допомогою глобальних стилів</b>
+        </p>
+        <!-- Зовнішні (пов`язані) стилі -->
+        <p class="news-text text-normal">
+            <b>Цей текст повинен бути відредагований за допомогою пов`язаних стилів</b> </p>
+        <p class="news-text" id="shadow-1">
+            <b>Цей текст повинен бути відредагований за допомогою пов`язаних стилів</b> </p>
+    </section>
+
+    <!--section_task_2-->
+
+    <section style="background-color: rgb(200, 236, 115);">
+        <h2>Завдання 2</h2>
+        <div class="box-1"></div>
+        <div class="box-2 "></div>
+        <div class="box-3 "></div>
+        <div class="box-4 "></div>
+        <div class="box-5 "></div>
+        <div class="box-6 "></div>
+    </section>
+</body>
+
+</html>
