@@ -6,84 +6,80 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Знайомство з css</title>
-    <!-- <style>
-        selector{
-            property: value;
-            property: value;
-            property: value;
-        }
-    </style> -->
-    <style>
-        p {
-            color: red;
-            background-color: white;
-            text-align: center;
-            font-size: 50px;
-            display: block;
-        }
-        
-        #shadow {
-            color: blue;
-            background-color: rgb(12, 240, 152);
-            text-align: center;
-            font-size: 50px;
-            display: block;
-        }
-    </style>
+    <title>float css</title>
     <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
-    <!-- ctrl + / -->
-    <!-- CSS -->
-    <!-- Види стилів
-        1.Вбудований
-        2.Глобальний
-        3.Зовнішній
-     -->
-    <!-- Види селекторів
-        1.Tag name          0,0,1
-        2.Class name        0,1,0
-        3.ID name           1,0,0
-      -->
-    <!--header-->
-    <header>
-        <h1>Завдання</h1>
-    </header>
-    <!--section_task_1-->
-
-    <section style="background-color: rgb(219, 223, 210);">
-        <h2>Завдання 1</h2>
-        <!-- Вбудовані стилі -->
-        <p style="color: white; background-color: crimson; text-align: left;font-size: 20px; padding: 0px 0px 0px 10px; margin: 30px auto; display: block;">
-            Цей текст повинен бути відредагований за допомогою вбудованих стилів</p>
-
-        <!-- Глобальні стилі -->
-        <p>
-            <b>Цей текст повинен бути відредагований за <br>допомогою глобальних стилів</b>
-        </p>
-        <p>
-            <b id="shadow">Цей текст повинен бути відредагований за <br>допомогою глобальних стилів</b>
-        </p>
-        <!-- Зовнішні (пов`язані) стилі -->
-        <p class="news-text text-normal">
-            <b>Цей текст повинен бути відредагований за допомогою пов`язаних стилів</b> </p>
-        <p class="news-text" id="shadow-1">
-            <b>Цей текст повинен бути відредагований за допомогою пов`язаних стилів</b> </p>
-    </section>
-
-    <!--section_task_2-->
-
-    <section style="background-color: rgb(200, 236, 115);">
-        <h2>Завдання 2</h2>
-        <div class="box-1"></div>
-        <div class="box-2 "></div>
-        <div class="box-3 "></div>
-        <div class="box-4 "></div>
-        <div class="box-5 "></div>
-        <div class="box-6 "></div>
-    </section>
+    <!-- Container -->
+    <div class="container">
+        <!-- Header -->
+        <div class="top__box">
+            <div class="top__box__small">Шапка сайту</div>
+        </div>
+        <!-- Menu -->
+        <div class="wrapper__menu">
+            <div class="menu__1">Меню сайту</div>
+            <div class="menu__2">Меню сайту</div>
+            <div class="menu__3">Меню сайту</div>
+            <div class="menu__4">Меню сайту</div>
+            <div class="menu__5">Меню сайту</div>
+        </div>
+        <!-- Block -->
+        <div class="wrapper__block">
+            <div class="block__1">
+                <div class="block__1__box__1">text</div>
+                <div class="block__1__box__2">3</div>
+                <div class="block__1__box__3">4</div>
+                <div class="block__1__box__4">5</div>
+            </div>
+            <div class="block__2">
+                <div class="block__2__box__1">A</div>
+                <div class="block__2__box__1__1">
+                    <div class="block__2__box__2">B
+                        <div class="block__2__box__2__1">B1</div>
+                        <div class="block__2__box__2__2">B2</div>
+                    </div>
+                    <div class="block__2__box__3">
+                        <div class="block__2__box__3__1">C1</div>
+                        <div class="block__2__box__3__2">C2</div>
+                        <div class="block__2__box__3__3">C3</div>
+                        <div class="block__2__box__3__4">C4</div>
+                        <div class="block__2__box__3__5">C5</div>
+                    </div>
+                    <div class="block__2__box__4">
+                        <div class="block__2__box__4__1">D</div>
+                        <div class="block__2__box__4__2">D1</div>
+                        <div class="block__2__box__4__3">
+                            <p>D3</p>
+                            <img width="" src="img/gerb.png" alt="Герб України">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="block__3">
+                <div class="block__3__box__1">I</div>
+                <div class="block__3__box__2">II</div>
+                <div class="block__3__box__3">III</div>
+                <div class="block__3__box__4">
+                    <div class="block__3__box__4__1">
+                        <div class="block__3__box__4__1__1">
+                        </div>
+                    </div>
+                </div>
+                <div class="block__3__box__5">VI</div>
+                <div class="block__3__box__6">VII</div>
+                <div class="block__3__box__7">VIII</div>
+                <div class="block__3__box__8">IX</div>
+                <div class="block__3__box__9">X</div>
+                <div class="block__3__box__10">XI</div>
+            </div>
+        </div>
+        <!-- Footer -->
+        <div class="footer">
+            Підвал
+        </div>
+    </div>
 </body>
 
 </html>
