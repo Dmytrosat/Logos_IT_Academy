@@ -1,0 +1,80 @@
+body {
+    display: block;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 800px;
+    min-height: 1000px;
+    background-color: rgb(200, 236, 115);
+    margin: 20px auto;
+    border: 5px double black;
+}
+
+.box-1 {
+    width: 400px;
+    height: 200px;
+    background: rgb(149, 226, 236);
+    margin: 30px auto;
+    box-sizing: border-box;
+    border: 3px dashed red;
+    display: block;
+    justify-content: center;
+}
+
+.box-2 {
+    width: 400px;
+    height: 200px;
+    background: rgb(229, 233, 4);
+    margin: 30px auto;
+    box-sizing: border-box;
+    border: 3px dotted red;
+    display: flex;
+    justify-content: center;
+}
+
+.box-3 {
+    width: 460px;
+    height: 260px;
+    background: rgb(149, 226, 236);
+    margin: 30px auto;
+    box-sizing: border-box;
+    border: 30px solid blue;
+    border-style: inset;
+    justify-content: center;
+}
+
+.box-4 {
+    width: 400px;
+    height: 200px;
+    background: rgb(149, 226, 236);
+    margin: 30px auto;
+    box-sizing: border-box;
+    border-left: 10px solid black;
+    display: flex;
+    justify-content: center;
+}
+
+.box-5 {
+    width: 400px;
+    height: 200px;
+    background: rgb(212, 183, 15);
+    margin: 30px auto;
+    box-sizing: border-box;
+    border: 10px double red;
+    display: flex;
+    justify-content: center;
+}
+
+.box-6 {
+    width: 400px;
+    height: 200px;
+    background: rgb(190, 206, 236);
+    margin: 30px auto;
+    box-sizing: border-box;
+    border: 20px groove purple;
+    display: flex;
+    justify-content: center;
+}
